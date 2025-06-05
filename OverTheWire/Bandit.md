@@ -227,7 +227,11 @@ nc localhost 30000
 
 ## Comandos utilizados
 
+openssl s_client -connect localhost:30001
+
 ##Contraseña
+
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 
 # Level 16 → Level 17
