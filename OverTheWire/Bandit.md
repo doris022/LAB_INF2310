@@ -3,7 +3,8 @@
 ## Comandos utilizados
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
-#Contraseña dada
+#Contraseña dada:
+
 bandit0
 
 
