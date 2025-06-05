@@ -1,4 +1,5 @@
 # Linux Journey
+
 La pagina de Linux para aprender "https://linuxjourney.com/" sus Quiz respondidos yacen aqui, las carpetas del nombrado estan organizadas
 segun la leccion de Linux hecho, cada carpeta teniendo imagenes de los Quiz contestados con su fecha a la hora que se realizaron.
 Que se distribuye dentro de cada carpeta y cada leccion:
@@ -27,3 +28,31 @@ Que se distribuye dentro de cada carpeta y cada leccion:
   5. Network Config
   6. Troubleshooting
   7. DNS
+ 
+############################################################################################################
+
+#Over The Wire
+
+La página de OTW "https://overthewire.org/wargames/" es una plataforma de aprendizaje en línea gratuita y de código abierto el cual se le da niveles
+para su aprendizaje. cada md es un nivel del sitio, donde se dice comandos utilizados como las contraseñas/token obtenidos en dicho nivel.
+Se distribuye:
+- Bandit
+  1. Nivel
+  2. Nivel
+  3. ...
+  34. Nivel
+
+- Leviathan
+  1...
+- Natas
+  1...
+- Krypton
+  1...
+- Narnia
+  1...
+- Behemoth
+  1...
+- Utumno
+  1...
+- Maze
+  1...
