@@ -233,55 +233,129 @@ openssl s_client -connect localhost:30001
 
 kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
+#############2ihUBV7ihnV1wUXRb4RrEcLfXC5CXlhmAAM
 
 # Level 16 → Level 17
 
 ## Comandos utilizados
 
+nmap -p 31000-32000 localhost
+openssl s_client -connect localhost:31790
+cd /tmp
+mkdir contra_bandit16
+cd contra_bandit16
+nano bandit17_key
+chmod 600 bandit17_key
+ssh -i bandit17_key bandit17@localhost -p 2220
+
+
 ##Contraseña
+
+
+-----BEGIN CERTIFICATE-----
+MIIFBzCCAu+gAwIBAgIUBLz7DBxA0IfojaL/WaJzE6Sbz7cwDQYJKoZIhvcNAQEL
+BQAwEzERMA8GA1UEAwwIU25ha2VPaWwwHhcNMjQwNjEwMDM1OTUwWhcNMzQwNjA4
+MDM1OTUwWjATMREwDwYDVQQDDAhTbmFrZU9pbDCCAiIwDQYJKoZIhvcNAQEBBQAD
+ggIPADCCAgoCggIBANI+P5QXm9Bj21FIPsQqbqZRb5XmSZZJYaam7EIJ16Fxedf+
+jXAv4d/FVqiEM4BuSNsNMeBMx2Gq0lAfN33h+RMTjRoMb8yBsZsC063MLfXCk4p+
+09gtGP7BS6Iy5XdmfY/fPHvA3JDEScdlDDmd6Lsbdwhv93Q8M6POVO9sv4HuS4t/
+jEjr+NhE+Bjr/wDbyg7GL71BP1WPZpQnRE4OzoSrt5+bZVLvODWUFwinB0fLaGRk
+GmI0r5EUOUd7HpYyoIQbiNlePGfPpHRKnmdXTTEZEoxeWWAaM1VhPGqfrB/Pnca+
+vAJX7iBOb3kHinmfVOScsG/YAUR94wSELeY+UlEWJaELVUntrJ5HeRDiTChiVQ++
+wnnjNbepaW6shopybUF3XXfhIb4NvwLWpvoKFXVtcVjlOujF0snVvpE+MRT0wacy
+tHtjZs7Ao7GYxDz6H8AdBLKJW67uQon37a4MI260ADFMS+2vEAbNSFP+f6ii5mrB
+18cY64ZaF6oU8bjGK7BArDx56bRc3WFyuBIGWAFHEuB948BcshXY7baf5jjzPmgz
+mq1zdRthQB31MOM2ii6vuTkheAvKfFf+llH4M9SnES4NSF2hj9NnHga9V08wfhYc
+x0W6qu+S8HUdVF+V23yTvUNgz4Q+UoGs4sHSDEsIBFqNvInnpUmtNgcR2L5PAgMB
+AAGjUzBRMB0GA1UdDgQWBBTPo8kfze4P9EgxNuyk7+xDGFtAYzAfBgNVHSMEGDAW
+gBTPo8kfze4P9EgxNuyk7+xDGFtAYzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4ICAQAKHomtmcGqyiLnhziLe97Mq2+Sul5QgYVwfx/KYOXxv2T8ZmcR
+Ae9XFhZT4jsAOUDK1OXx9aZgDGJHJLNEVTe9zWv1ONFfNxEBxQgP7hhmDBWdtj6d
+taqEW/Jp06X+08BtnYK9NZsvDg2YRcvOHConeMjwvEL7tQK0m+GVyQfLYg6jnrhx
+egH+abucTKxabFcWSE+Vk0uJYMqcbXvB4WNKz9vj4V5Hn7/DN4xIjFko+nREw6Oa
+/AUFjNnO/FPjap+d68H1LdzMH3PSs+yjGid+6Zx9FCnt9qZydW13Miqg3nDnODXw
++Z682mQFjVlGPCA5ZOQbyMKY4tNazG2n8qy2famQT3+jF8Lb6a4NGbnpeWnLMkIu
+jWLWIkA9MlbdNXuajiPNVyYIK9gdoBzbfaKwoOfSsLxEqlf8rio1GGcEV5Hlz5S2
+txwI0xdW9MWeGWoiLbZSbRJH4TIBFFtoBG0LoEJi0C+UPwS8CDngJB4TyrZqEld3
+rH87W+Et1t/Nepoc/Eoaux9PFp5VPXP+qwQGmhir/hv7OsgBhrkYuhkjxZ8+1uk7
+tUWC/XM0mpLoxsq6vVl3AJaJe1ivdA9xLytsuG4iv02Juc593HXYR8yOpow0Eq2T
+U5EyeuFg5RXYwAPi7ykw1PW7zAPL4MlonEVz+QXOSx6eyhimp1VZC11SCg==
+-----END CERTIFICATE-----
+
 
 
 # Level 17 → Level 18
 
 ## Comandos utilizados
 
+ls -l
+diff passwords.old passwords.new
+diff passwords.old passwords.new | grep ">"
+
+
 ##Contraseña
+
+x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
 
 # Level 18 → Level 19
 
 ## Comandos utilizados
 
+ssh bandit18@bandit.labs.overthewire.org -p 2220 'cat readme'
+
 ##Contraseña
 
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
 # Level 19 → Level 20
 
 ## Comandos utilizados
 
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+./bandit20-do
+./bandit20-do cat /etc/bandit_pass/bandit20
+
 ##Contraseña
 
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 # Level 20 → Level 21
 
 ## Comandos utilizados
+ssh bandit20@bandit.labs.overthewire.org -p 2220
+nc -l 2222
+./suconnect 2222
 
 ##Contraseña
 
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 # Level 21 → Level 22
 
 ## Comandos utilizados
 
+cat /etc/cron.d/cronjob_bandit22
+cat /usr/bin/cronjob_bandit22.sh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
 ##Contraseña
 
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 # Level 22 → Level 23
 
 ## Comandos utilizados
 
+cat /etc/cron.d/cronjob_bandit23
+cat /usr/bin/cronjob_bandit23.sh
+echo "I am user bandit23" | md5sum | cut -d ' ' -f 1
+ls -l /tmp/8ca319486bfbbc3663ea0fbe81326349
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
 ##Contraseña
 
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 # Level 23 → Level 24
 
