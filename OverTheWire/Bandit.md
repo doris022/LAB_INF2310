@@ -360,16 +360,29 @@ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
 # Level 23 → Level 24
 
 ## Comandos utilizados
+cat /etc/cron.d/cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+cd /tmp
+nano contrabandit24.sh
+chmod +x contrabandit24.sh
+cat /tmp/pass_bandit24_by_bandit23
 
 ##Contraseña
 
+gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 # Level 24 → Level 25
 
 ## Comandos utilizados
 
+cd /tmp
+nano bandit_25.sh
+chmod +x bandit_25.sh
+./bandit_25.sh
+
 ##Contraseña
 
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
 # Level 25 → Level 26
 
