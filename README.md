@@ -1,7 +1,7 @@
 # LAB_INF2310
 Estudiante: Poma Flores Doris Carmen
 
-LAB_INF2310
+LAB_INF2310  
   |  
   |— 01-semanal-github/  
   |— 02-semana2-fundamentos/  
