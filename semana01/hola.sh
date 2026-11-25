@@ -7,4 +7,4 @@
 
 echo " Usuario : $( whoami )"
 echo " Directorio : $( pwd )"
-echo " Fecha : $( date )"
+echo " Fecha : $(date)"
