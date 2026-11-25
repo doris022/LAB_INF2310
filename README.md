@@ -2,6 +2,7 @@
 Repositorio de trabajo del laboratorio de INF2310 .
 Estudiante: Poma Flores Doris Carmen
 
+
 Cada directorio ‘semanaNN /‘ contiene el capstone de esa semana y es
 independiente de los demas : se puede ejecutar sin haber hecho las otras semanas .
 ## Contenido
