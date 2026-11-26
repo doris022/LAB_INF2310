@@ -14,7 +14,7 @@ touch trabajo/archivo{1..10}.sh
 touch trabajo/doc{1..10}.txt
 touch trabajo/foto{1..10}.jpg
 touch trabajo/reg{1..10}.log
-touch trabajo/nota{1...10}.md
+touch trabajo/nota{1..10}.md
 
 echo -n "Archivos generados: "
 ls -1 trabajo | wc -l
@@ -32,3 +32,4 @@ chmod 644 organized/documentos/* organized/imagenes/*
 chmod 444 organized/registros/*
 chmod 755 organized organized/scripts organized/documentos
 chmod 755 organized/imagenes organized/registros organized/otros
+
