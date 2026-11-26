@@ -18,3 +18,10 @@ touch trabajo/nota{1...10}.md
 
 echo -n "Archivos generados: "
 ls -l trabajo | wc -l
+
+#Clasificacion: el shell expande *. ext antes de ejecutar el  mv
+mv trabajo/*.sh organized/scripts/
+mv trabajo/*.txt organized/documentos/
+mv trabajo/*.md organized/documentos/
+mv trabajo/*.jpg organized/imagenes/
+mv trabajo/*.log organized/registros/
