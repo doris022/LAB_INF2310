@@ -3,8 +3,9 @@
 Crea el repositorio terminal -lab , su estructura de 16 semanas y lo publica en
 GitHub . Incluye ‘hola .sh ‘, un script que imprime usuario , directorio y fecha .
 ## Archivos
-- ‘hola .sh ‘ - primer script del curso
-- ‘README .md ‘ - este archivo
+- ‘hola.sh ‘ - primer script del curso
+- ‘README.md‘ - este archivo
+- 'carpeta: capturas' - capturas del proceso
 ## Como se ejecuta
 ‘‘‘
 Git y GitHub 12
