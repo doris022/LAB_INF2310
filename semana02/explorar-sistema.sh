@@ -4,4 +4,4 @@
 # Fecha : 2026 -11 - 24
 # Uso : ./ explorar-sistema.sh
 # Descripcion: recorre / etc ,/ var ,/ home ,/ bin ,/ tmp y / proc y documenta su funcion
-SEP = "-------------------------------------------"
+SEP="-------------------------------------------"
