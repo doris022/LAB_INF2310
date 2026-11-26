@@ -7,10 +7,7 @@ de su contenido.
 - ‘explorar-sistema.sh‘ - script principal
 - ‘salida-ejemplo.txt ‘ - salida capturada del script
 - ‘README.md‘ - este archivo
-- 'paso1.'
-- 'paso 2 '
-- ...
-- paso 5. - Capturas al correr en terminal
+- 'carpeta: capturas'- Capturas al correr en terminal
 ## Como se ejecuta
 ‘‘‘
 cd semana02
