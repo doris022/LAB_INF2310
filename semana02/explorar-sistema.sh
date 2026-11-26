@@ -5,3 +5,19 @@
 # Uso : ./ explorar-sistema.sh
 # Descripcion: recorre / etc ,/ var ,/ home ,/ bin ,/ tmp y / proc y documenta su funcion
 SEP="-------------------------------------------"
+
+echo "=== / etc ==="
+echo "/etc guarda archivos de configuracion del sistema en texto plano."
+ls -l / etc | head -n 20
+echo "$SEP"
+echo ""
+echo "=== /var ==="
+echo "/var guarda datos que cambian: registros ,colas y caches."
+ls - lh / var | head -n 20
+echo "$SEP"
+echo ""
+echo "=== /home ==="
+echo "/ home contiene un subdirectorio por usuario con sus archivos personale."
+ls -l /home
+echo "$SEP"
+echo ""
