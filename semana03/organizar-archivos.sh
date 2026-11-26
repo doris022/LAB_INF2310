@@ -33,3 +33,11 @@ chmod 444 organized/registros/*
 chmod 755 organized organized/scripts organized/documentos
 chmod 755 organized/imagenes organized/registros organized/otros
 
+# Resumen por categoria
+echo "Resumen por categoria: "
+echo -n "scripts :      "; ls -1 organized/scripts | wc -l
+echo -n "documentos:    "; ls -1 organized/documentos | wc -l
+echo -n "imagenes:      "; ls -1 organized/imagenes | wc -l
+echo -n "registros:     "; ls -1 organized/registros | wc -l
+echo -n "otros:         "; ls -1 organized/otros | wc -l
+echo "Clasificacion completada."
