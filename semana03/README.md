@@ -1,5 +1,5 @@
 # Semana 03 - Archivos , permisos y multiusuario
-## Que hace
+## Que hace:
 ‘organizar-archivos.sh‘ genera 50 archivos de prueba en ‘trabajo/‘, los
 clasifica por extension en cinco categorias dentro de ‘organized/‘ y aplica a
 cada categoria los permisos que le corresponden.
