@@ -1,0 +1,101 @@
+=== / etc ===
+/etc guarda archivos de configuracion del sistema en texto plano.
+/:
+total 4194380
+lrwxrwxrwx   1 root root          7 Oct  8 11:18 bin -> usr/bin
+drwxr-xr-x   3 root root       4096 Nov 22 22:24 boot
+dr-xr-xr-x   2 root root       4096 Oct 13 09:51 cdrom
+drwxr-xr-x  19 root root       4180 Nov 25 19:32 dev
+drwxr-xr-x 141 root root      12288 Nov 21 18:26 etc
+drwxr-xr-x   3 root root       4096 Nov 21 18:12 home
+lrwxrwxrwx   1 root root          7 Oct  8 11:18 lib -> usr/lib
+lrwxrwxrwx   1 root root          9 Oct  8 11:18 lib64 -> usr/lib64
+drwx------   2 root root      16384 Nov 21 18:00 lost+found
+drwxr-xr-x   2 root root       4096 Oct 13 08:54 media
+drwxr-xr-x   2 root root       4096 Oct 13 08:54 mnt
+drwxr-xr-x   2 root root       4096 Oct 13 08:54 opt
+dr-xr-xr-x 249 root root          0 Nov 25 19:32 proc
+drwx------   5 root root       4096 Nov 21 18:24 root
+drwxr-xr-x  44 root root       1020 Nov 25 20:21 run
+lrwxrwxrwx   1 root root          8 Oct  8 11:18 sbin -> usr/sbin
+drwxr-xr-x  16 root root       4096 Oct 13 09:02 snap
+drwxr-xr-x   2 root root       4096 Oct 13 08:54 srv
+-------------------------------------------
+
+=== /var ===
+/var guarda datos que cambian: registros ,colas y caches.
+-:
+
+/:
+bin
+boot
+cdrom
+dev
+etc
+home
+lib
+lib64
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+snap
+-------------------------------------------
+
+=== /home ===
+/ home contiene un subdirectorio por usuario con sus archivos personales.
+total 4
+drwxr-x--- 17 doris doris 4096 Nov 25 20:52 doris
+-------------------------------------------
+
+=== /bin ===
+/ bin contiene programas esenciales disponibles para todo usuario.
+lrwxrwxrwx 1 root root 7 Oct  8 11:18 /bin -> usr/bin
+-------------------------------------------
+
+=== /tmp ===
+/tmp contiene archivos temporales que se vacian al reiniciar.
+total 0
+drwx------ 5 root root 100 Nov 25 19:35 snap-private-tmp
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-chrony.service-6nR5XU
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-colord.service-kKlhB7
+drwx------ 3 root root  60 Nov 25 20:21 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-fwupd.service-88E3KF
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-ModemManager.service-NLxcn8
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-NetworkManager.service-QWdqgF
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-polkit.service-gUlq37
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-power-profiles-daemon.service-wZBo6y
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-switcheroo-control.service-qNnRz8
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-systemd-logind.service-xj68FF
+drwx------ 3 root root  60 Nov 25 19:37 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-ubuntu-advantage-desktop-daemon.service-hMsFZZ
+drwx------ 3 root root  60 Nov 25 19:32 systemd-private-ff1f916f18de423aacc45be4f85e1fa9-upower.service-jYkECf
+-------------------------------------------
+
+=== /proc ===
+/ proc es un sistema virtual : el kernel genera su contenido al leerlo.
+total 0
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 1
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 10
+dr-xr-xr-x  9 syslog          syslog                        0 Nov 25 19:32 1001
+dr-xr-xr-x  9 avahi           avahi                         0 Nov 25 19:32 1025
+dr-xr-xr-x  9 root            root                          0 Nov 25 20:36 10705
+dr-xr-xr-x  9 root            root                          0 Nov 25 20:36 10738
+dr-xr-xr-x  9 root            root                          0 Nov 25 20:36 10797
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 1091
+dr-xr-xr-x  9 _chrony         _chrony                       0 Nov 25 19:32 1094
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 1096
+dr-xr-xr-x  9 root            root                          0 Nov 25 20:36 11066
+dr-xr-xr-x  9 doris           doris                         0 Nov 25 20:37 11227
+dr-xr-xr-x  9 doris           doris                         0 Nov 25 20:37 11275
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 1141
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 1157
+dr-xr-xr-x  9 doris           doris                         0 Nov 25 20:43 11884
+dr-xr-xr-x  9 root            root                          0 Nov 25 20:51 12127
+dr-xr-xr-x  9 root            root                          0 Nov 25 19:32 1213
+dr-xr-xr-x  9 root            doris                         0 Nov 25 19:32 1230
+-------------------------------------------
+
+EXPLORACION COMPLETADA.
