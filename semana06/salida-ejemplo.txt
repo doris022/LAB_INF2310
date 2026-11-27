@@ -1,0 +1,26 @@
+=== Sistema ===
+Linux doris-VirtualBox 7.3.0-11-generic #12-Ubuntu SMP PREEMPT_DYNAMIC Fri Nov  6 10:05:00 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.10"
+NAME="Ubuntu"
+VERSION_ID="26.10"
+VERSION="26.10 (Stonking Stingray)"
+VERSION_CODENAME=stonking
+up 48 minutes
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           8,7Gi       2,9Gi       3,2Gi       188Mi       2,9Gi       5,8Gi
+=== Usuario ===
+doris
+uid=1000(doris) gid=1000(doris) groups=1000(doris),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),108(lxd),999(lpadmin)
+doris adm cdrom sudo dip plugdev users lxd lpadmin
+=== Disco ===
+Sistema de archivos  Tamaño Usado Disp Uso% Montado en
+tmpfs                  1.8G  2.3M 1.8G   1% /run
+/dev/sda2               25G   12G  13G  48% /
+devtmpfs               4.4G     0 4.4G   0% /dev
+tmpfs                  4.4G     0 4.4G   0% /dev/shm
+none                   1.0M     0 1.0M   0% /run/credentials/systemd-journald.service
+none                   1.0M     0 1.0M   0% /run/credentials/systemd-resolved.service
+/dev/loop0             128K  128K    0 100% /snap/bare/5
+/dev/loop2              15M   15M    0 100% /snap/desktop-security-center/206
+/dev/loop1              67M   67M    0 100% /snap/core24/2124
+12K	.
