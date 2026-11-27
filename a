@@ -1,0 +1,59 @@
+[33m43bb79d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m docs: agregar READ ME con la tabla de codigos y la salida
+[33m29d583d[m feat: agregar opcion -d y manejo de opcion invalida
+[33m7d8619f[m feat: agregar opcion -u con datos del usuario
+[33m4cfffab[m feat: agregar resumen general del sistema
+[33m31cf80a[m feat: agregar menasje de uso con la opcion -h
+[33mffc0675[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m feat: agregando los datos y respaldos para confirmar el corrido
+[33mdde653b[m docs: agregado carpeta con capturas del proceso de trabajo
+[33m03ec50f[m docs: agregar README de la semana05
+[33mac3b93b[m feat: instalar el script en ~/bin y documentar el PATH
+[33m1788302[m feat: agregar informe de archivos respaldados y tamaño
+[33md97122c[m feat: buscar y empaquetar los archivos recientes
+[33mffe85e3[m chore: crear el esqueleto de respaldar-trabajo.sh
+[33m17968e3[m chore: crear estructura iniciar de la semana 05
+[33mbf05bf8[m feat: buscar y empaquetar los archivos recientes
+[33m7622fa1[m docs: creado carpeta para ordenar las capturas del trabajo
+[33m1621b97[m docs: agregar README y reporte de ejemplo de la carpeta
+[33m6d55992[m feat: agregar calculo de la hora pico
+[33mf0f1e03[m feat: agregar listado de errores 500
+[33m048a8a4[m feat: agregar conteo por codigo de estado
+[33mc8b8c5e[m feat: agregar top cinco de IP por frecuencia
+[33mfb5eb55[m chore: generar acceso.log de 20 lineas
+[33md4f5522[m feat: carpeta con las capturas de todo el proceso
+[33ma93040e[m prueba
+[33m684210e[m docs: documentar el capstonde del archivo actual
+[33mb7e7fd3[m docs: documentar el capstone de la carpeta actual
+[33m4d55288[m feat: agregar resumen por categoria
+[33m2fbed1f[m feat: aplicar permisos por categoria
+[33mfcaf649[m feat: aplicar permisos por categoria
+[33m2c365b0[m feat: clasificar archivos por extension con comodines
+[33mcdc746a[m chore: crear esqueleto de organizar-archivos.sh
+[33m4c91b03[m docs: Mejorado la descripcion del README principal
+[33m313b160[m feat: creado nueva carpeta para odenar mejor las capturas de la semana02 + directorios para que el script no salga con errores de no encontrado directorios
+[33m71134b1[m feat: creado nueva carpeta para odenar mejor las capturas de la semana01
+[33m79c5fda[m docs: agregar README y salida de ejemplo de la semana02
+[33me8e38b5[m feat: agregar exoploracion de /bin, /tmp y /proc
+[33mb385b9f[m feat: agregar exoploracion de /etc, /var y /home
+[33m1299fa3[m feat: agregar exoploracion de /etc, /var y /home
+[33mc5f0e5b[m chore: crear esqueleto de explorar-sistema.sh
+[33mcb9a9f5[m chore: crear esqueleto de explorar-sistema.sh
+[33m6fa0f40[m docs: screenshots
+[33me0012a3[m feat: agregar hola.sh de prueba
+[33mf7cb593[m llenando
+[33m176fcf7[m llenando
+[33mb3761a6[m docs: creado README en diferentes carpetas
+[33m0f16485[m docs: agregar el  README de la semana 01
+[33mb9d884e[m docs: EN progreso de la semana01
+[33m3f35cd3[m feat: nuevo sh
+[33mcc78fbf[m feat: carpeta nueva para semana01
+[33m7e91474[m docs: agregado orden de carpetas
+[33m2554d29[m lab
+[33m618d2ec[m Update README.md
+[33mfe10f3c[m LAB
+[33m6feddad[m LAB
+[33mb855e1d[m lab
+[33me5934e2[m laboratorio
+[33mae645a6[m LAB
+[33m80d2f7c[m lab
+[33mc73bac4[m laboratorio
+[33m875208d[m Initial commit
