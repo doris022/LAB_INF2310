@@ -17,3 +17,20 @@ uso() {
 [[ $# -eq 1 ]] || uso
 
 RUTA="$1"
+
+if [[ -L "$RUTA" ]]; then
+  echo "Es enlace simbolico: $RUTA"
+  ls -l "$RUTA"
+  exit 0
+fi
+
+if [[ ! -e "$RUTA" ]]; then
+  echo "No existe: $RUTA" >&2
+  exit 1
+fi
+
+if [[ -d "$RUTA" ]]; then
+  echo "Es directorio: $RUTA"
+  ls -ld "$RUTA"
+  exit 0
+fi
